@@ -1,0 +1,50 @@
+# Ambiente virtual
+venv/
+env/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.sqlite3
+
+# Configurações do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos do PyCharm, VSCode ou outras IDEs
+.vscode/
+.idea/
+
+# Arquivos temporários
+*.log
+*.pot
+*.pyc
+*.mo
+*.swp
+*.bak
+
+# Arquivos de banco de dados e senhas
+*.db
+*.sqlite3
+.env
+.env.*
+
+# Static files gerados
+/static/
+/media/
+
+# Arquivos de migração específicos (opcional, se quiser gerá-los sempre no ambiente novo)
+# ** Comentário: normalmente se versiona os migrations, então use com cuidado **
+# */migrations/*.py
+# */migrations/*.pyc
+
+# Arquivos do PostgreSQL se houver dumps locais
+*.dump
+*.sql
+
+# Arquivos compactados
+*.zip
+*.tar.gz
+*.tgz
+*.7z
+*.rar
